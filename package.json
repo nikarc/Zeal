@@ -1,0 +1,21 @@
+{
+    "name": "zeal",
+    "displayName": "Zeal",
+    "description": "A purply-tealy color scheme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zeal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zeal-color-theme.json"
+            }
+        ]
+    }
+}

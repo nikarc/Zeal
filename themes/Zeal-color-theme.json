@@ -1,0 +1,216 @@
+{
+	"name": "Zeal",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#263238",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+				"scope": [
+						"entity.name.function",
+						"variable.function"
+				],
+				"settings": {
+						"foreground": "#6cb9ff"
+				}
+		},
+		{
+				"name": "Support function",
+				"scope": "support.function",
+				"settings": {
+						"foreground": "#6cb9ff"
+				}
+		},
+		{
+				"scope": "comment",
+				"settings": {
+						"foreground": "#9ca1d1"
+				}
+		},
+		{
+				"name": "String",
+				"scope": [
+						"string.quoted",
+						"string.template",
+						"punctuation.definition.string"
+				],
+				"settings": {
+						"foreground": "#4ef2d0"
+				}
+		},
+		{
+				"name": "Variable",
+				"scope": "variable",
+				"settings": {
+						"foreground": "#cee6ff"
+				}
+		},
+		{
+				"name": "Language variable",
+				"scope": "variable.language",
+				"settings": {
+						"foreground": "#ffad92",
+						"fontStyle": "italic"
+				}
+		},
+		{
+				"name": "Parameter",
+				"scope": "variable.parameter",
+				"settings": {
+				"foreground": "#ffc5ff",
+						"fontStyle": "italic"
+				}
+		},
+		{
+				"name": "Storage (declaration or modifier keyword)",
+				"scope": [
+						"storage.type",
+						"storage.modifier"
+				],
+				"settings": {
+						"foreground": "#aca9ff"
+				}
+		},
+		{
+				"name": "Constant",
+				"scope": "constant",
+				"settings": {
+						"foreground": "#ffb8a1"
+				}
+		},
+		{
+				"name": "Number",
+				"scope": "constant.numeric",
+				"settings": {
+						"foreground": "#ff9f57"
+				}
+		},
+		{
+				"name": "Language constant (boolean, null)",
+				"scope": "constant.language",
+				"settings": {
+						"foreground": "#ffb8a1"
+				}
+		},
+		{
+				"name": "Entity (data interfaces)",
+				"scope": "entity.name",
+				"settings": {
+						"foreground": "#ecd6ba"
+				}
+		},
+		{
+				"name": "HTML or XML tag",
+				"scope": "entity.name.tag",
+				"settings": {
+						"foreground": "#E95678E6"
+				}
+		},
+		{
+				"name": "HTML or XML tag brackets",
+				"scope": [
+						"punctuation.definition.tag.begin",
+						"punctuation.definition.tag.end"
+				],
+				"settings": {
+						"foreground": "#ff8dbb"
+				}
+		},
+		{
+				"name": "HTML or XML tag",
+				"scope": "entity.name.tag",
+				"settings": {
+						"foreground": "#ff8dbb"
+				}
+		},
+		{
+				"name": "Tag atttribute",
+				"scope": "entity.other.attribute-name",
+				"settings": {
+						"foreground": "#ffc6a1"
+				}
+		},
+		{
+				"name": "Class",
+				"scope": "entity.name.type",
+				"settings": {
+						"foreground": "#ffdb94"
+				}
+		},
+		{
+				"name": "Inherited class",
+				"scope": "entity.other.inherited-class",
+				"settings": {
+						"foreground": "#ffdb94"
+				}
+		},
+		{
+				"name": "Function",
+				"scope": [
+						"entity.name.function",
+						"variable.function"
+				],
+				"settings": {
+						"foreground": "#6cb9ff"
+				}
+		},
+		{
+				"name": "Keyword",
+				"scope": "keyword",
+				"settings": {
+						"foreground": "#aca9ff"
+				}
+		},
+		{
+				"name": "Control keyword (if, try, while, etc.)",
+				"scope": "keyword.control",
+				"settings": {
+						"foreground": "#aca9ff"
+				}
+		},
+		{
+				"name": "Operator",
+				"scope": "keyword.operator",
+				"settings": {
+						"foreground": "#c4ff88"
+				}
+		},
+		{
+			"name": "Object literal key / property",
+			"scope": [
+				"meta.object-literal.key",
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#ffdb94"
+			}
+		},
+		{
+				"name": "HTML or XML tag brackets",
+				"scope": [
+						"punctuation.definition.tag.begin",
+						"punctuation.definition.tag.end"
+				],
+				"settings": {
+						"foreground": "#11d7c8"
+				}
+		},
+		{
+				"name": "Support variable",
+				"scope": "support.variable",
+				"settings": {
+						"foreground": "#ff8dbb"
+				}
+		},
+		{
+				"name": "Character escape",
+				"scope": "constant.character.escape",
+				"settings": {
+						"foreground": "#25B0BCE6"
+				}
+		}
+	]
+}
